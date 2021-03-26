@@ -6,7 +6,7 @@ if($file -eq '.jpg'){
     Add-Content $home\Desktop\output.txt (Get-ChildItem 'C:' -Recurse *.jpg)
     }else { 
         write-host('check your home screen for a text document labeled output')
-    }.j
+    }
 
 if($file -eq '.txt'){
     Add-Content $home\Desktop\output.txt (Get-ChildItem 'C:' -Recurse *.txt)
